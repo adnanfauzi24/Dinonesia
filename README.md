@@ -30,10 +30,27 @@
       position:sticky; top:0; z-index:1000; box-shadow:0 2px 10px rgba(0,0,0,0.3);
       width:100%; max-width:1200px; margin:0 auto;
     }
-    .logo { width:120px; margin-right:1em; }
+    .logo {
+      width: 200px;
+      margin: 0 auto 0.5em;
+      display: block;
+    }
     header h2 {
-      flex:1; font-size:2em; color:#ffe082;
-      text-shadow:1px 1px 2px #000; font-family:'Fredoka One', cursive;
+      font-size: 2em;
+      color: #ffe082;
+      text-shadow: 1px 1px 2px #000;
+      font-family: 'Fredoka One', cursive;
+      text-align: center;
+    }
+    .a4-slide {
+      width: 21cm;
+      height: 29.7cm;
+      margin: 1cm auto;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      padding: 1cm;
+      box-sizing: border-box;
+      page-break-after: always;
     }
     nav { display:flex; gap:1em; flex-wrap:wrap; }
     nav button {
@@ -188,6 +205,9 @@
     <div id="tentang" class="content section" style="display:none;">
       <h3><i class="fas fa-info-circle"></i> Tentang</h3>
       <p>
+        
+        
+        
       <section id="wahana-dinonesia" class="p-6 bg-white dark:bg-gray-900 text-gray-800 dark:text-white">
         <div class="max-w-4xl mx-auto">
           <h2 class="text-3xl font-bold mb-4 text-center">🌋 Wahana Dinonesia: Petualangan Seru di Zaman Dinosaurus!</h2>
